@@ -1,4 +1,4 @@
 #!/bin/bash
 
-nohup  /opt/Enpass/bin/runenpass.sh startWithTray >/dev/null 2>&1 &
+nohup /opt/Enpass/bin/runenpass.sh startWithTray &
 (sleep 5 && nohup /opt/nutstore/bin/nutstore-pydaemon.py >/dev/null 2>&1) &
