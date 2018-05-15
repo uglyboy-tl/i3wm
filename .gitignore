@@ -1,1 +1,7 @@
 .*
+文档
+下载
+!.config/
+.config/google-chrome/
+.config/Rambox/
+.config/Code/
