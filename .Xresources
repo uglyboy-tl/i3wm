@@ -1,0 +1,46 @@
+Rxvt.menu:/etc/X11/rxvt.menu
+Rxvt.preeditType:Root
+Rxvt.transparency:255
+
+! font set
+URxvt.font:xft:monaco,xft:Noto Sans Mono CJK SC:size=12
+URxvt.boldFont:xft:monaco,xft:Noto Sans Mono CJK SC:Bold:size=12
+
+! urxvt color set
+URxvt.multichar_encoding:utf-8
+URxvt.background:black
+URxvt.foreground:green
+
+URxvt.colorBD:Gray95
+URxvt.colorUL:Green
+URxvt.color1:Red2
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color8:Gray50
+URxvt.color10:Green2
+URxvt.color12:DodgerBlue
+URxvt.color14:Cyan2
+URxvt.color15:Gray95
+
+! bg transparent set
+URxvt.inheritPixmap: true
+URxvt.tintCddolor: white
+URxvt.shading: 80
+
+! Tab set
+URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tab-fg: 12
+URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.tabbar-fg: 4
+
+URxvt.scrollBar:False
+
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+
+URxvt.cursorBlink:True
+URxvt.SaveLines:3000
+
+URxvt.borderless: False
