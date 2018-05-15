@@ -20,7 +20,7 @@ exec --no-startup-id redshift-gtk
 exec_always --no-startup-id feh --bg-fill "$HOME/.config/i3/wallpaper.jpg"
 
 # 设置透明须先安装compton，并在此指定软件和透明度（默认0.75），sleep保证transset在其所设置的软件之后启动，根据情况调节大小
-exec_always --no-startup-id compton &
+exec_always --no-startup-id compton -CGb
 exec_always --no-startup-id sleep .2 && exec transset-df -n i3bar 0.65
 
 # 建议另外指定一个脚本来启动通用的开机自启项目
@@ -74,7 +74,7 @@ bindsym $mod+mod1+9 move container to workspace $WS9, workspace $WS9
 bindsym $mod+mod1+0 move container to workspace $WS0, workspace $WS0
 
 # => 快捷启动
-bindsym $mod+r      exec --no-startup-id dmenu_run -b -fn 'Monaco-12' -nb '#333333' -nf '#FFFFFF' -sb '#111111' -sf '#3399FF'
+bindsym $mod+r      exec --no-startup-id dmenu_run -fn 'Monaco-12' -nb '#333333' -nf '#FFFFFF' -sb '#111111' -sf '#3399FF'
 bindsym $mod+e      exec --no-startup-id pcmanfm
 
 # => 窗口边框类型（边框类型有normal正常/none无边框/pixel 1 自定义宽度）

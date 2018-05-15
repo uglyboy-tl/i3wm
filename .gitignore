@@ -9,6 +9,7 @@
 .config/gtk-3.0/
 .config/kingsoft/
 .config/Kingsoft/
+.config/autostart/
 !.gitignore
 !.Xresources
 !.xprofile
