@@ -5,10 +5,12 @@
 .config/google-chrome/
 .config/Rambox/
 .config/Code/
-.config/ibus/
+.config/fcitx/
 .config/gtk-3.0/
 .config/kingsoft/
 .config/Kingsoft/
+.config/SogouPY*
+.config/sogou*
 !.gitignore
 !.Xresources
 !.xprofile
