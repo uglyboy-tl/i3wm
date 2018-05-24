@@ -3,8 +3,8 @@ Rxvt.preeditType:Root
 Rxvt.transparency:255
 
 ! font set
-URxvt.font:xft:monaco,xft:Noto Sans Mono CJK SC:size=12
-URxvt.boldFont:xft:monaco,xft:Noto Sans Mono CJK SC:Bold:size=12
+URxvt.font:xft:monaco:size=12,xft:Noto Sans Mono CJK SC:size=12
+URxvt.boldFont:xft:monaco:Bold:size=12,xft:Noto Sans Mono CJK SC:Bold:size=12
 
 ! urxvt color set
 URxvt.multichar_encoding:utf-8
