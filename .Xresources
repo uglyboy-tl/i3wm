@@ -28,10 +28,10 @@ URxvt.tintCddolor: white
 URxvt.shading: 80
 
 ! Tab set
-URxvt.perl-ext-common: default,tabbed
-URxvt.tabbed.tab-fg: 12
-URxvt.tabbed.tab-bg: 0
-URxvt.tabbed.tabbar-fg: 4
+!URxvt.perl-ext-common: default,tabbed
+!URxvt.tabbed.tab-fg: 12
+!URxvt.tabbed.tab-bg: 0
+!URxvt.tabbed.tabbar-fg: 4
 
 URxvt.scrollBar:False
 
