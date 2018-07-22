@@ -11,15 +11,15 @@
 ######################################################################
 
 # => 开机自启（根据需要取消相应的注释#）
-#exec --no-startup-id xrandr --output HDMI1 --mode 1920x1080  --pos 1366x0 --rotate normal --output LVDS1 --primary  --mode 1366x768 --pos 0x616 --rotate normal --output VIRTUAL1 
+# exec --no-startup-id xrandr --output HDMI1 --mode 1920x1080  --pos 1366x0 --rotate normal --output LVDS1 --primary  --mode 1366x768 --pos 0x616 --rotate normal --output VIRTUAL1 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nm-applet --no-agent
-#exec --no-startup-id redshift-gtk
+exec --no-startup-id redshift-gtk -l 39.77:116.67
 
 # 壁纸须先安装feh，并在此指定路径
 exec_always --no-startup-id feh --bg-fill "$HOME/.config/i3/wallpaper.jpg"
 
-# 设置透明须先安装compton，并在此指定软件和透明度（默认0.75），sleep保证transset在其所设置的软件之后启动，根据情况调节大小
+# 设置透明须先安装compton
 exec_always --no-startup-id compton -CGb
 
 # 建议另外指定一个脚本来启动通用的开机自启项目
@@ -35,10 +35,9 @@ set $WS5  5:
 set $WS6  6:
 set $WS7  7:
 set $WS8  8:
-set $WS9  9:
+set $WS9  9:🌏
 set $WS0 10:
 
-# => 工作区切换&智能启动（添加智能启动脚本~/bin/st 自动且不重复打开工作区相应程序）
 # 自动切换到新打开的窗口(需4.12版本支持)
 focus_on_window_activation focus
 
@@ -84,11 +83,9 @@ for_window [class="Desmume"] floating enable
 for_window [class="File-roller"] floating enable
 
 # => 快捷启动
-#bindsym $mod+r      exec --no-startup-id dmenu_run -fn 'Monaco-12' -nb '#333333' -nf '#FFFFFF' -sb '#111111' -sf '#3399FF'
 bindsym $mod+Return      exec --no-startup-id rofi -show run
-bindsym $mod+e      exec --no-startup-id pcmanfm
 bindsym Control+Shift+Escape	exec --no-startup-id lxtask
-bindsym --release $mod+Print exec scrot -q 100 -s $HOME/图片/截图/`date +%Y-%m-%d_%H:%M:%S`.png
+#bindsym --release $mod+Print exec scrot -q 100 -s $HOME/图片/截图/`date +%Y-%m-%d_%H:%M:%S`.png
 
 # => 窗口边框类型（边框类型有normal正常/none无边框/pixel 1 自定义宽度）
 # 默认普通窗口的边框类型
@@ -100,22 +97,6 @@ for_window [floating] border normal
 hide_edge_borders both
 # 浮动窗口控制
 floating_modifier $mod
-
-# => 新建窗口的分割方向
-bindsym $mod+h split h
-bindsym $mod+v split v
-
-# => 移动窗口
-bindsym $mod+Left  move left
-bindsym $mod+Down  move down
-bindsym $mod+Up    move up
-bindsym $mod+Right move right
-
-# => 调整窗口大小
-bindsym $mod+Shift+Left  resize shrink width  10 px or 1 ppt
-bindsym $mod+Shift+Down  resize grow   height 10 px or 1 ppt
-bindsym $mod+Shift+Up    resize shrink height 10 px or 1 ppt
-bindsym $mod+Shift+Right resize grow   width  10 px or 1 ppt
 
 # => 关闭窗口
 bindsym mod1+F4 kill
@@ -153,7 +134,6 @@ bindsym XF86AudioPrev exec --no-startup-id mpc prev
 bindsym XF86AudioNext exec --no-startup-id mpc next
 bindsym XF86AudioPlay exec --no-startup-id mpc toggle
 
-
 # => 电源管理（Pause Break键呼出)
 bindsym $mod+l exec i3lock -c '#333333', exec sleep .1 && exec xset dpms force off, mode "default"
 set $mode_system 系统:注销(O) 关机(S) 重启(R) 取消(Esc)
@@ -170,7 +150,6 @@ mode "$mode_system" {
 bindsym mod1+Shift+r restart
 
 ############################# 主题相关 ###############################
-
 # 字体
 font pango:Monaco 12
 
@@ -215,7 +194,6 @@ bar {
 }
 
 #********************************************i3-gaps*********************************
-#for_window [class="^.*"] border pixel 0
 gaps inner 8
 gaps outer 6
 set $mode_gaps Gaps: (o) outer, (i) inner

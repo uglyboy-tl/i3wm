@@ -3,3 +3,4 @@
 nohup sh -c "(sleep 10 && nohup /opt/nutstore/bin/nutstore-pydaemon.py >/dev/null 2>&1) &" &
 nohup /opt/Enpass/bin/runenpass.sh startWithTray &
 nohup mpd >/dev/null 2>&1 &
+mpc load 英文

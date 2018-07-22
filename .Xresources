@@ -1,16 +1,21 @@
 Rxvt.menu:/etc/X11/rxvt.menu
 Rxvt.preeditType:Root
 Rxvt.transparency:255
+URxvt.depth:32
 
-! font set
+! Fonts
+! URxvt.allow_bold: false
 URxvt.font:xft:monaco:size=12,xft:Noto Sans Mono CJK SC:size=12
 URxvt.boldFont:xft:monaco:Bold:size=12,xft:Noto Sans Mono CJK SC:Bold:size=12
+URxvt.multichar_encoding: utf-8
+URxvt.imLocale: zh_CN.UTF-8
+
+! Fix font space
+URxvt*letterSpace: -1
 
 ! urxvt color set
-URxvt.multichar_encoding:utf-8
-URxvt.background:black
-URxvt.foreground:green
-
+URxvt.background:Black
+URxvt.foreground:Green
 URxvt.colorBD:Gray95
 URxvt.colorUL:Green
 URxvt.color1:Red2
@@ -23,8 +28,8 @@ URxvt.color14:Cyan2
 URxvt.color15:Gray95
 
 ! bg transparent set
-URxvt.inheritPixmap: true
-URxvt.tintCddolor: white
+URxvt.inheritPixmap: True
+URxvt.tintCddolor: Grey
 URxvt.shading: 80
 
 ! Tab set
@@ -33,14 +38,24 @@ URxvt.shading: 80
 !URxvt.tabbed.tab-bg: 0
 !URxvt.tabbed.tabbar-fg: 4
 
+!!URL操作
+URxvt.urlLauncher:google-chrome-stable
+URxvt.matcher.button:1
+Urxvt.perl-ext-common: default,matcher
+
 URxvt.scrollBar:False
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
 
 URxvt.mouseWheelScrollPage:True
 URxvt.scrollTtyOutput: False
 URxvt.scrollWithBuffer: True
 URxvt.scrollTtyKeypress: True
 
-URxvt.cursorBlink:True
+! Cursor
+URxvt.cursorBlink: True
+URxvt.cursorColor: #657b83
+URxvt.cursorUnderline: false
 URxvt.SaveLines:3000
 
 URxvt.borderless: False
