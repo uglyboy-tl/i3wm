@@ -114,7 +114,6 @@ bindsym --release button3 kill
 # => 焦点切换
 # 焦点跟随鼠标移动
 focus_follows_mouse no
-bindsym $mod+Tab focus right
 
 # => 布局切换
 # 切换到堆叠布局
