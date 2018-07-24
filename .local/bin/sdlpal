@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd /home/uglyboy/文档/仙剑98柔情 && ./sdlpal  &
