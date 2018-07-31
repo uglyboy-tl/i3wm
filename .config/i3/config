@@ -92,6 +92,7 @@ for_window [class="Leafpad"] floating enable
 for_window [class="Gpicview"] floating enable
 for_window [class="Desmume"] floating enable
 for_window [class="File-roller"] floating enable
+for_window [class="Typora"] floating enable
 
 # => 快捷启动
 bindsym $mod+Return	exec --no-startup-id rofi -show run
