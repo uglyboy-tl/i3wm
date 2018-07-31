@@ -29,14 +29,14 @@ exec --no-startup-id $HOME/.config/i3/autostart
 set $mod  Mod4
 set $WS1  1:
 set $WS2  2:
-set $WS3  3:
-set $WS4  4:
-set $WS5  5:
-set $WS6  6:
-set $WS7  7:
-set $WS8  8:
-set $WS9  9:🌏
-set $WS0 10:
+set $WS3  3:
+set $WS4  4:
+set $WS5  5:
+set $WS6  6:
+set $WS7  7:
+set $WS8  8:
+set $WS9  9:
+set $WS0 10:
 
 
 # => 绑定工作区显示的屏幕
@@ -45,6 +45,7 @@ workspace $WS2 output HDMI1
 workspace $WS3 output HDMI1
 workspace $WS4 output LVDS1 
 workspace $WS5 output HDMI1
+workspace $WS6 output LVDS1 
 
 # 自动切换到新打开的窗口(需4.12版本支持)
 focus_on_window_activation focus
@@ -80,6 +81,8 @@ for_window [class="(?i)pcmanfm"] move container to workspace $WS3, workspace $WS
 assign [class="(?i)rambox"] $WS4
 assign [class="Google-chrome"] $WS2
 assign [class="(?i)code"] $WS5
+assign [class="(?i)et"] $WS6
+assign [class="(?i)wps"] $WS6
 
 # => 浮动窗口的程序
 for_window [class="Lxappearance"] floating enable
