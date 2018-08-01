@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Visual Studio Light",
-    "editor.fontFamily": "'Monaco', 'Noto Sans Mono', monospace, 'Droid Sans Fallback'",
+    "workbench.colorTheme": "Material Theme",
+    "editor.fontFamily": "Monaco, 'Noto Sans Mono CJK SC'",
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "line-thin",
     "editor.mouseWheelScrollSensitivity": 2,
@@ -15,5 +15,7 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.iconTheme": "eq-material-theme-icons"
 }
