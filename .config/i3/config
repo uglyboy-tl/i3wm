@@ -32,9 +32,9 @@ set $WS2  2:
 set $WS3  3:
 set $WS4  4:
 set $WS5  5:
-set $WS6  6:
-set $WS7  7:
-set $WS8  8:
+set $WS6  6:
+set $WS7  7:
+set $WS8  8:
 set $WS9  9:
 set $WS0 10:
 
@@ -45,7 +45,8 @@ workspace $WS2 output HDMI1
 workspace $WS3 output HDMI1
 workspace $WS4 output LVDS1 
 workspace $WS5 output HDMI1
-workspace $WS6 output LVDS1 
+workspace $WS6 output HDMI1
+workspace $WS7 output LVDS1 
 
 # 自动切换到新打开的窗口(需4.12版本支持)
 focus_on_window_activation focus
@@ -56,7 +57,7 @@ bindsym $mod+2 workspace $WS2, exec --no-startup-id ~/.config/i3/st google-chrom
 bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st pcmanfm
 bindsym $mod+4 workspace $WS4, exec --no-startup-id ~/.config/i3/st rambox
 bindsym $mod+5 workspace $WS5, exec --no-startup-id ~/.config/i3/st /opt/visual-studio-code/bin/code
-bindsym $mod+6 workspace $WS6
+bindsym $mod+6 workspace $WS6, exec --no-startup-id ~/.config/i3/st FBReader
 bindsym $mod+7 workspace $WS7
 bindsym $mod+8 workspace $WS8
 bindsym $mod+9 workspace $WS9
@@ -81,8 +82,9 @@ for_window [class="(?i)pcmanfm"] move container to workspace $WS3, workspace $WS
 assign [class="(?i)rambox"] $WS4
 assign [class="Google-chrome"] $WS2
 assign [class="(?i)code"] $WS5
-assign [class="(?i)et"] $WS6
-assign [class="(?i)wps"] $WS6
+assign [class="(?i)et"] $WS7
+assign [class="(?i)wps"] $WS7
+assign [class="(?i)fbreader"] $WS6
 
 # => 浮动窗口的程序
 for_window [class="Lxappearance"] floating enable
