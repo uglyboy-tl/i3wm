@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Material Theme",
     "editor.fontFamily": "Monaco, 'Noto Sans Mono CJK SC'",
+    "editor.fontSize": 16,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "line-thin",
     "editor.mouseWheelScrollSensitivity": 2,
