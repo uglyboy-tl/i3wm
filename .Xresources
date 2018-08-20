@@ -29,8 +29,8 @@ URxvt.color15:Gray95
 
 ! bg transparent set
 URxvt.inheritPixmap: True
-URxvt.tintCddolor: Grey
-URxvt.shading: 80
+URxvt.tintCddolor: Black
+URxvt.shading: 50
 
 ! Tab set
 !URxvt.perl-ext-common: default,tabbed
