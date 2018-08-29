@@ -10,3 +10,4 @@
 !.Xmodmap
 !.xinitrc
 !.zshrc
+!.config/fontconfig/fonts.conf

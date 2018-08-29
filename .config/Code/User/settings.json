@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Material Theme",
-    "editor.fontFamily": "Monaco, 'Source Han Sans CN'",
+    "editor.fontFamily": "Monaco",
     "editor.fontSize": 16,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "line-thin",
