@@ -17,6 +17,5 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
-    "materialTheme.fixIconsRunning": false,
     "workbench.iconTheme": "eq-material-theme-icons"
 }
