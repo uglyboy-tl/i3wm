@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Visual Studio Light",
-    "editor.fontFamily": "Monaco",
+    "editor.fontFamily": "Cousine",
     "editor.fontSize": 16,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "line-thin",
