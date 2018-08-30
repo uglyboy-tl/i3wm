@@ -97,7 +97,7 @@ for_window [class="File-roller"] floating enable
 for_window [class="Typora"] floating enable
 
 # => 快捷启动
-bindsym $mod+Return	exec --no-startup-id rofi -show run
+bindsym $mod+r	exec --no-startup-id rofi -show run
 bindsym mod1+Tab		exec --no-startup-id rofi -theme paper-float -show window
 bindsym Control+Shift+Escape	exec --no-startup-id lxtask
 

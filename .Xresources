@@ -5,8 +5,9 @@ URxvt.depth:32
 
 ! Fonts
 ! URxvt.allow_bold: false
-URxvt.font:xft:monaco:size=12,xft:Noto Sans Mono CJK SC:size=12
-URxvt.boldFont:xft:monaco:Bold:size=12,xft:Noto Sans Mono CJK SC:Bold:size=12
+Xft.dpi:96
+URxvt.font:xft:cousine:size=12,xft:Microsoft YaHei:size=12
+URxvt.boldFont:xft:cousine:Bold:size=12,xft:Microsoft YaHei:Bold:size=12
 URxvt.multichar_encoding: utf-8
 URxvt.imLocale: zh_CN.UTF-8
 
