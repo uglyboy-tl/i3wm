@@ -6,8 +6,8 @@ URxvt.depth:32
 ! Fonts
 ! URxvt.allow_bold: false
 Xft.dpi:96
-URxvt.font:xft:cousine:size=12,xft:WenQuanYi Zen Hei Mono:size=14
-URxvt.boldFont:xft:cousine:Bold:size=12,xft:WenQuanYi Zen Hei Mono:Bold:size=14
+URxvt.font:xft:Monaco:size=12,xft:WenQuanYi Zen Hei Mono:size=14
+URxvt.boldFont:xft:Monaco:Bold:size=12,xft:WenQuanYi Zen Hei Mono:Bold:size=14
 URxvt.multichar_encoding: utf-8
 URxvt.imLocale: zh_CN.UTF-8
 
