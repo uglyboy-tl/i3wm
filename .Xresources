@@ -5,6 +5,12 @@ URxvt.depth:32
 
 ! Fonts
 ! URxvt.allow_bold: false
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 Xft.dpi:96
 URxvt.font:xft:Monaco:size=12,xft:WenQuanYi Zen Hei Mono:size=14
 URxvt.boldFont:xft:Monaco:Bold:size=12,xft:WenQuanYi Zen Hei Mono:Bold:size=14
