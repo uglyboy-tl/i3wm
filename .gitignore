@@ -3,6 +3,7 @@
 !.config/i3/
 !.config/fontconfig/fonts.conf
 !.config/Code/User/settings.json
+!.config/compton.conf
 !.gitignore
 !.Xresources
 !.Xmodmap
