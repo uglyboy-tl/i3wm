@@ -13,7 +13,7 @@
 # => 开机自启（根据需要取消相应的注释#）
 exec --no-startup-id ~/.config/i3/randr.sh
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nm-applet --no-agent
+exec --no-startup-id nm-applet
 exec --no-startup-id fcitx-autostart
 exec --no-startup-id /opt/Enpass/bin/runenpass.sh startWithTray 
 exec --no-startup-id redshift -l 39.77:116.67
@@ -84,6 +84,7 @@ for_window [class="(?i)pcmanfm"] move container to workspace $WS3, workspace $WS
 assign [class="(?i)google-chrome"] $WS2
 assign [class="(?i)rambox"] $WS4
 assign [class="(?i)code"] $WS5
+assign [class="(?i)steam"] $WS6
 
 # => 浮动窗口的程序
 for_window [class="Lxappearance"] floating enable
