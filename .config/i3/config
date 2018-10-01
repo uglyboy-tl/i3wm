@@ -56,7 +56,7 @@ focus_on_window_activation focus
 # 注释部分请依据个人喜好更改并取消注释，且把i3-sensible-terminal替换为常用term
 bindsym $mod+1 workspace $WS1, exec --no-startup-id ~/.config/i3/st urxvt
 bindsym $mod+2 workspace $WS2, exec --no-startup-id ~/.config/i3/st google-chrome-stable
-bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st pcmanfm --desktop-off
+bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st pcmanfm --no-desktop
 bindsym $mod+4 workspace $WS4, exec --no-startup-id ~/.config/i3/st rambox
 bindsym $mod+5 workspace $WS5, exec --no-startup-id ~/.config/i3/st /opt/visual-studio-code/bin/code
 bindsym $mod+6 workspace $WS6, exec --no-startup-id ~/.config/i3/st steam-runtime %U
