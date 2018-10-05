@@ -4,7 +4,6 @@
 !.config/fontconfig/fonts.conf
 !.config/Code/User/settings.json
 !.config/compton.conf
-!.config/redshift/redshift.conf
 !.xscreensaver
 !.gitignore
 !.Xresources
