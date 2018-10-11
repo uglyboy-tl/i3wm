@@ -17,5 +17,6 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
-    "workbench.iconTheme": "eq-material-theme-icons"
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.startupEditor": "newUntitledFile"
 }
