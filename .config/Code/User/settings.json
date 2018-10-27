@@ -17,15 +17,5 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.recommendations": [
-        "Equinusocio.vsc-material-theme",
-        "HookyQR.beautify",
-        "James-Yu.latex-workshop",
-        "liximomo.sftp",
-        "mrorz.language-gettext",
-        "MS-CEINTL.vscode-language-pack-zh-hans",
-        "rifi2k.format-html-in-php",
-        "srfrnk.user-extensions"
-    ]
+    "workbench.startupEditor": "newUntitledFile"
 }
