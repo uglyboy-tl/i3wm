@@ -16,7 +16,16 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "files.autoSave": "afterDelay",
     "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.recommendations": [
+        "Equinusocio.vsc-material-theme",
+        "HookyQR.beautify",
+        "James-Yu.latex-workshop",
+        "liximomo.sftp",
+        "mrorz.language-gettext",
+        "MS-CEINTL.vscode-language-pack-zh-hans",
+        "rifi2k.format-html-in-php",
+        "srfrnk.user-extensions"
+    ]
 }
