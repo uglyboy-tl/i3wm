@@ -1,3 +1,72 @@
+Rxvt.menu:/etc/X11/rxvt.menu
+Rxvt.preeditType:Root
+Rxvt.transparency:255
+URxvt.depth:32
+
+! Fonts
+! URxvt.allow_bold: false
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+Xft.dpi:96
+urxvt*font:xft:Monaco:size=12,xft:Inconsolata\ for\ Powerline:size=14,xft:WenQuanYi\ Zen\ Hei\ Mono:size=14
+URxvt.boldFont:xft:Monaco:Bold:size=12,xft:Inconsolata\ for\ Powerline:size=14,xft:WenQuanYi\ Zen\ Hei\ Mono:Bold:size=14
+URxvt.multichar_encoding: utf-8
+URxvt.imLocale: zh_CN.UTF-8
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! urxvt color set
+URxvt.background:Black
+URxvt.foreground:Green
+URxvt.colorBD:Gray95
+URxvt.colorUL:Green
+URxvt.color1:Red2
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color8:Gray50
+URxvt.color10:Green2
+URxvt.color12:DodgerBlue
+URxvt.color14:Cyan2
+URxvt.color15:Gray95
+
+! bg transparent set
+URxvt.inheritPixmap: True
+URxvt.tintCddolor: Black
+URxvt.shading: 50
+
+! Tab set
+!URxvt.perl-ext-common: default,tabbed
+!URxvt.tabbed.tab-fg: 12
+!URxvt.tabbed.tab-bg: 0
+!URxvt.tabbed.tabbar-fg: 4
+
+!!URL操作
+URxvt.urlLauncher:google-chrome-stable
+URxvt.matcher.button:1
+Urxvt.perl-ext-common: default,matcher
+
+URxvt.scrollBar:False
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+
+! Cursor
+URxvt.cursorBlink: True
+URxvt.cursorColor: #657b83
+URxvt.cursorUnderline: false
+URxvt.SaveLines:3000
+
+URxvt.borderless: False
+
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
