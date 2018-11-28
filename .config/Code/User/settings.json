@@ -17,5 +17,6 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "window.titleBarStyle": "custom"
 }
