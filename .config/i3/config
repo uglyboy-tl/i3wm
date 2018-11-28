@@ -79,6 +79,7 @@ for_window [class="Leafpad"] floating enable
 for_window [class="Gpicview"] floating enable
 for_window [class="File-roller"] floating enable
 for_window [class="Typora"] floating enable
+for_window [class="Transmission-gtk"] floating enable
 
 # => 移动窗口到另一个工作区
 bindsym $mod+mod1+Left  move container to workspace prev, workspace prev
