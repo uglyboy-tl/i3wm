@@ -6,4 +6,10 @@
  keysym Control_L = Caps_Lock
  keysym Caps_Lock = Control_L
  add Lock = Caps_Lock
+<<<<<<< HEAD
  add Control = Control_L
+=======
+ add Control = Control_L
+ 
+ pointer = 3 2 1
+>>>>>>> f13da3934662c0171a3de856ab4ef6914a199449
