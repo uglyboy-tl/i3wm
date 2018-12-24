@@ -59,7 +59,7 @@ bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st pcmanfm --no
 bindsym $mod+4 workspace $WS4, exec --no-startup-id ~/.config/i3/st rambox
 bindsym $mod+5 workspace $WS5, exec --no-startup-id ~/.config/i3/st /opt/visual-studio-code/code 
 bindsym $mod+6 workspace $WS6, exec --no-startup-id ~/.config/i3/st steam-runtime %U
-bindsym $mod+7 workspace $WS7
+bindsym $mod+7 workspace $WS7, exec --no-startup-id ~/.config/i3/st transmission-gtk
 bindsym $mod+8 workspace $WS8
 bindsym $mod+9 workspace $WS9
 
@@ -79,6 +79,7 @@ for_window [class="Leafpad"] floating enable
 for_window [class="Gpicview"] floating enable
 for_window [class="File-roller"] floating enable
 for_window [class="Typora"] floating enable
+#for_window [class="Transmission-gtk"] floating enable
 
 # => 移动窗口到另一个工作区
 bindsym $mod+mod1+Left  move container to workspace prev, workspace prev
