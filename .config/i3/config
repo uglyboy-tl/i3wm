@@ -28,11 +28,11 @@ set $WS1  1:
 set $WS2  2:
 set $WS3  3:
 set $WS4  4:
-set $WS5  5:
+set $WS5  5:
 set $WS6  6:
 set $WS7  7:
 set $WS8  8:
-set $WS9  9:
+set $WS9  9:
 
 # 自动切换到新打开的窗口(需4.12版本支持)
 focus_on_window_activation focus
@@ -43,7 +43,7 @@ bindsym $mod+2 workspace $WS2, exec --no-startup-id ~/.config/i3/st google-chrom
 #bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st ranger
 bindsym $mod+3 workspace $WS3, exec --no-startup-id ~/.config/i3/st pcmanfm --no-desktop
 bindsym $mod+4 workspace $WS4, exec --no-startup-id ~/.config/i3/st /opt/visual-studio-code/code
-bindsym $mod+5 workspace $WS5
+bindsym $mod+5 workspace $WS5, exec --no-startup-id ~/.config/i3/st kodi
 bindsym $mod+6 workspace $WS6
 bindsym $mod+7 workspace $WS7
 bindsym $mod+8 workspace $WS8
