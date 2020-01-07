@@ -1,22 +1,3 @@
 {
-    "workbench.colorTheme": "Visual Studio Light",
-    "editor.fontFamily": "Monaco",
-    "editor.fontSize": 16,
-    "editor.cursorBlinking": "phase",
-    "editor.cursorStyle": "line-thin",
-    "editor.mouseWheelScrollSensitivity": 2,
-    "editor.mouseWheelZoom": true,
-    "editor.renderLineHighlight":"all",
-    "editor.smoothScrolling": true,
-    "editor.trimAutoWhitespace": false,
-    "workbench.sideBar.location": "left",
-    "window.zoomLevel": 0,
-    "git.autofetch": true,
-    "explorer.confirmDelete": false,
-    "latex-workshop.view.pdf.viewer": "tab",
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.titleBarStyle": "custom"
+    "editor.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }

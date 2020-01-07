@@ -1,3 +1,2 @@
 #!/bin/bash
 
-nohup sh -c "(sleep 10 && nohup /opt/nutstore/bin/nutstore-pydaemon.py >/dev/null 2>&1) &" &
